@@ -1,0 +1,6 @@
+shipment_id,origin,destination,shipment_date,delivery_date,cost,weight,status
+SHP001,Delhi,Mumbai,2025-07-01,2025-07-03,1200,10,Delivered
+SHP002,Mumbai,Hyderabad,2025-07-02,2025-07-04,1500,15,Delivered
+SHP003,Chennai,Bangalore,2025-07-03,,1800,12,In Transit
+SHP004,Delhi,Hyderabad,2025-07-04,2025-07-07,2000,20,Delivered
+SHP005,Bangalore,Delhi,2025-07-05,,1300,8,In Transit

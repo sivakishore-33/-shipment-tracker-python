@@ -1,0 +1,3 @@
+shipment_id,origin,destination,shipment_date,delivery_date,cost,weight,status
+SHP003,Chennai,Bangalore,2025-07-03,,1800,12,In Transit
+SHP005,Bangalore,Delhi,2025-07-05,,1300,8,In Transit
