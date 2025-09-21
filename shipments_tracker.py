@@ -12,12 +12,13 @@ with open('shipments.csv', mode='r') as file:
 
 print(f"Total cost of In Transit shipments: ₹{total_cost}")
 
-# Export to new CSV
+
 with open('in_transit_shipments.csv', mode='w', newline='') as file:
     writer = csv.DictWriter(file, fieldnames=in_transit_shipments[0].keys())
     writer.writeheader()
     writer.writerows(in_transit_shipments)
 
 print("Exported in-transit shipments to 'in_transit_shipments.csv'")
+
 
 
